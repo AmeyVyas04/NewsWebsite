@@ -18,7 +18,7 @@ const ProfessionalNavbar = () => {
 
   const categories = [
     { id: "search", name: "Search", path: "/search" },
-    { id: "breaking", name: "Breaking", path: "/breaking", badge: "🔴" },
+    
     { id: "world", name: "World", path: "/navcomponents/world" },
    
     { id: "business", name: "Business", path: "/navcomponents/business", badge: "📈" },
