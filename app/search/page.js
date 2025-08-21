@@ -126,7 +126,7 @@ const SearchPage = () => {
             <Newspaper className="h-16 w-16 text-gray-400 mx-auto mb-4" />
             <h3 className="text-xl font-medium text-gray-600 mb-2">No results found</h3>
             <p className="text-gray-500">
-              We couldn't find any articles matching "{query}". Try different keywords or check your spelling.
+              We couldnt find any articles matching {query}. Try different keywords or check your spelling.
             </p>
           </div>
         )}
@@ -135,7 +135,7 @@ const SearchPage = () => {
         {results.length > 0 && (
           <div className="mb-6 flex justify-between items-center">
             <h2 className="text-2xl font-semibold text-slate-800">
-              Search Results for "{query}"
+              Search Results for {query}
             </h2>
             <span className="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded-full">
               {results.length} article{results.length !== 1 ? 's' : ''} found
